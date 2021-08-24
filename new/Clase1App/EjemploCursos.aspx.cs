@@ -21,10 +21,12 @@ namespace Clase1App
             Estudiante es1 = new Estudiante("123456","Maria", "Perez", true);
             Estudiante es2 = new Estudiante("456789","Pedro", "Ramirez", true);
             Estudiante es3 = new Estudiante("789456","Noelia", "Jota", true);
+            Estudiante es4 = new Estudiante("789456", "Noelia", "Jota", true);
             List<Estudiante> estudiantes = new List<Estudiante>();
             estudiantes.Add(es1);
             estudiantes.Add(es2);
             estudiantes.Add(es3);
+            estudiantes.Add(es4);
 
 
             Materia m1 = new Materia("PHP", "Programa de PHP");
