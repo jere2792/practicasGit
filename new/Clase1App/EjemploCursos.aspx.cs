@@ -31,9 +31,11 @@ namespace Clase1App
 
             Materia m1 = new Materia("PHP", "Programa de PHP");
             Materia m2 = new Materia("C#", "Programa de C#");
+            Materia m3 = new Materia("C#", "Programa de C#");
             List<Materia> materias = new List<Materia>();
             materias.Add(m1);
             materias.Add(m2);
+            materias.Add(m3);
 
             Instructor i1 = new Instructor("1236456","Carla", "García",materias);
 
